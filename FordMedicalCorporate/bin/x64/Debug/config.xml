@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings app="FordMedicalCorporate" version="1.0.0.0" date="2023-02-21T21:19:27" os="6.2.9200.0" hdsn="F0E5737F" hid="4184B94919EE09028AF338ED47131479">
+    <host>
+       <useSqlExpress>False</useSqlExpress>
+        <dataSource>DAYLAP\SQLEXPRESS</dataSource>
+        <initialCatalog>FordMedical</initialCatalog>
+        <integratedSecurity>False</integratedSecurity>
+        <userId>sa</userId>
+        <password>a8db2804371095f7779b714730a1fc27</password>
+    </host>
+</settings>

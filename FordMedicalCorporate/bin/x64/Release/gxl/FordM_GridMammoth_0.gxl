@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout Date="2023-02-22T21:31:15" LayoutType="siGrid18" Form="FordM" Grid="GridMammoth" UserId="0" NumberOfTables="1" Autosize="1">
+    <RootTable AllowAddNew="False" AllowDelete="False" AllowEdit="False" ShowTotalRow="True" ShowFilterRow="True" ShowGroupByBox="True" FontSize="8.25" MaxRows="100" DefaultCol="1" NumberOfColumns="7">
+        <OrderId Pos="1" Visible="True" Width="70" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <TotalQty Pos="2" Visible="True" Width="74" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <PickedQty Pos="5" Visible="True" Width="80" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <RemainingQty Pos="6" Visible="True" Width="99" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <Pallet Pos="3" Visible="True" Width="55" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <SKU Pos="4" Visible="True" Width="38" Edit="False" Format="" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <SCol Pos="0" Visible="True" Width="25" Edit="False" Format="" Total="None" Type="Object" />
+    </RootTable>
+</GridLayout>

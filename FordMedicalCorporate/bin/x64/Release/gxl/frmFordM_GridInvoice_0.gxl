@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout Date="2023-06-08T20:01:46" LayoutType="siGrid18" Form="frmFordM" Grid="GridInvoice" UserId="0" NumberOfTables="1" Autosize="-1">
+    <RootTable AllowAddNew="False" AllowDelete="False" AllowEdit="False" ShowTotalRow="True" ShowFilterRow="True" ShowGroupByBox="True" FontSize="8.25" MaxRows="100" DefaultCol="1" NumberOfColumns="5">
+        <SKU Pos="2" Visible="True" Width="38" Edit="False" Format="" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <TotalQty Pos="2" Visible="True" Width="100" Edit="False" Format="" Total="2" Type="Int32" FilterCondition="" FilterValue="" />
+        <OrderId Pos="4" Visible="True" Width="100" Edit="False" Format="" Total="2" Type="Int32" FilterCondition="" FilterValue="" />
+        <SKUId Pos="5" Visible="True" Width="100" Edit="False" Format="" Total="2" Type="Int32" FilterCondition="" FilterValue="" />
+        <SCol Pos="0" Visible="True" Width="25" Edit="False" Format="" Total="None" Type="Object" FilterCondition="" FilterValue="" />
+    </RootTable>
+</GridLayout>

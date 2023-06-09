@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout Date="2023-06-08T20:01:46" LayoutType="siGrid18" Form="frmFordM" Grid="GridPalletizer" UserId="0" NumberOfTables="1" Autosize="-1">
+    <RootTable AllowAddNew="False" AllowDelete="False" AllowEdit="False" ShowTotalRow="True" ShowFilterRow="True" ShowGroupByBox="True" FontSize="8.25" MaxRows="100" DefaultCol="1" NumberOfColumns="11">
+        <Id Pos="1" Visible="True" Width="39" Edit="False" Format="N0" Total="Count" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <PalletID Pos="5" Visible="True" Width="69" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <PalletNumber Pos="2" Visible="True" Width="85" Edit="False" Format="" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <SKUId Pos="6" Visible="True" Width="58" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <SKU Pos="3" Visible="True" Width="40" Edit="False" Format="" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <Qty Pos="4" Visible="True" Width="47" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <ShippingId Pos="7" Visible="True" Width="82" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <PalletizerId Pos="8" Visible="True" Width="100" Edit="False" Format="" Total="2" Type="Int32" FilterCondition="" FilterValue="" />
+        <OrderId Pos="9" Visible="True" Width="100" Edit="False" Format="" Total="2" Type="Int32" FilterCondition="" FilterValue="" />
+        <OrderNumber Pos="10" Visible="True" Width="100" Edit="False" Format="" Total="2" Type="String" FilterCondition="" FilterValue="" />
+        <SCol Pos="0" Visible="True" Width="25" Edit="False" Format="" Total="None" Type="Object" FilterCondition="" FilterValue="" />
+    </RootTable>
+</GridLayout>

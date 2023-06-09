@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout Date="2023-03-03T22:39:44" LayoutType="siGrid18" Form="Temp" Grid="GridSKU" UserId="0" NumberOfTables="1" Autosize="1">
+    <RootTable AllowAddNew="False" AllowDelete="False" AllowEdit="False" ShowTotalRow="True" ShowFilterRow="True" ShowGroupByBox="True" FontSize="8.25" MaxRows="100" DefaultCol="1" NumberOfColumns="3">
+        <Id Pos="1" Visible="True" Width="120" Edit="False" Format="N0" Total="Count" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <Name Pos="2" Visible="True" Width="100" Edit="False" Format="" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <SCol Pos="0" Visible="True" Width="25" Edit="False" Format="" Total="None" Type="Object" />
+    </RootTable>
+</GridLayout>

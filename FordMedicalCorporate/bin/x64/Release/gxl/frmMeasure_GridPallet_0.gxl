@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout Date="2023-04-19T07:50:19" LayoutType="siGrid18" Form="frmMeasure" Grid="GridPallet" UserId="0" NumberOfTables="1" Autosize="-1">
+    <RootTable AllowAddNew="False" AllowDelete="False" AllowEdit="False" ShowTotalRow="True" ShowFilterRow="True" ShowGroupByBox="True" FontSize="8.25" MaxRows="100" DefaultCol="1" NumberOfColumns="9">
+        <Id Pos="1" Visible="True" Width="39" Edit="False" Format="N0" Total="Count" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <IdShipping Pos="2" Visible="False" Width="82" Edit="False" Format="N0" Total="Count" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <IdPallet Pos="3" Visible="False" Width="68" Edit="False" Format="N0" Total="Count" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <PalletNumber Pos="4" Visible="True" Width="85" Edit="False" Format="" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <Long Pos="5" Visible="True" Width="52" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <Width Pos="6" Visible="True" Width="57" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <Hight Pos="7" Visible="True" Width="54" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <Weight Pos="8" Visible="True" Width="63" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <SCol Pos="0" Visible="True" Width="25" Edit="False" Format="" Total="None" Type="Object" FilterCondition="" FilterValue="" />
+    </RootTable>
+</GridLayout>

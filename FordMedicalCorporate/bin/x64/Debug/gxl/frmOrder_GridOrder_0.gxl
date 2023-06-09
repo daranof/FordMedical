@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout Date="2023-05-24T21:04:29" LayoutType="siGrid18" Form="frmOrder" Grid="GridOrder" UserId="0" NumberOfTables="1" Autosize="-1">
+    <RootTable AllowAddNew="False" AllowDelete="False" AllowEdit="False" ShowTotalRow="True" ShowFilterRow="True" ShowGroupByBox="True" FontSize="8.25" MaxRows="100" DefaultCol="1" NumberOfColumns="3">
+        <Id Pos="1" Visible="True" Width="100" Edit="False" Format="" Total="2" Type="Int32" FilterCondition="" FilterValue="" />
+        <OrderNumber Pos="2" Visible="True" Width="97" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <SCol Pos="0" Visible="True" Width="25" Edit="False" Format="" Total="None" Type="Object" FilterCondition="" FilterValue="" />
+    </RootTable>
+</GridLayout>

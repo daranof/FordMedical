@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<License>
+    <Data>
+        <LicensedTo>Telsonic</LicensedTo>
+        <LicenseType>Developer Small Business</LicenseType>
+        <LicenseNote>Limited to 1 developer.</LicenseNote>
+        <OrderID>110923013349</OrderID>
+        <OEM>This is not a non-redistributable license</OEM>
+        <Products>
+            <Product>Aspose.Cells for .NET</Product>
+        </Products>
+        <EditionType>Enterprise</EditionType>
+        <SerialNumber>a60c4fa3-4b7a-4913-a15b-7a5214a159a1</SerialNumber>
+        <SubscriptionExpiry>20120923</SubscriptionExpiry>
+        <LicenseVersion>2.2</LicenseVersion>
+    </Data>
+    <Signature>u7ZsYTOtPtmYi8eB5qeuhV1oIQvkKbpjO6/ieTBNazlPCveNYGlzvM8SE/D6RNM4i7LiPGIXBWiiyO8C5Is4GBz4vwBO5PBsQx/C0BL+9AH58/fttb9E2GQ0HUFMlCkco8wRngs9Mvw9jos3Z1UUlEtSPqN4SEnmuqwDgGEFHJQ=</Signature>
+</License>

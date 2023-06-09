@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout Date="2023-02-21T22:00:48" LayoutType="siGrid18" Form="FordM" Grid="GridEX" UserId="0" NumberOfTables="1" Autosize="-1">
+    <RootTable AllowAddNew="False" AllowDelete="False" AllowEdit="False" ShowTotalRow="True" ShowFilterRow="True" ShowGroupByBox="True" FontSize="8.25" MaxRows="100" DefaultCol="1" NumberOfColumns="8">
+        <MainId Pos="1" Visible="True" Width="64" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <Customer Pos="2" Visible="True" Width="75" Edit="False" Format="N0" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <OrderId Pos="3" Visible="True" Width="70" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <SKU Pos="4" Visible="True" Width="93" Edit="False" Format="N0" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <Qty Pos="5" Visible="True" Width="47" Edit="False" Format="N0" Total="None" Type="Int32" FilterCondition="Contiene" FilterValue="" />
+        <Date Pos="6" Visible="True" Width="42" Edit="False" Format="dd/MM/yyyy HH:mm:ss" Total="None" Type="DateTime" FilterCondition="Contiene" FilterValue="" />
+        <Pallet Pos="7" Visible="True" Width="45" Edit="False" Format="" Total="None" Type="String" FilterCondition="Contiene" FilterValue="" />
+        <SCol Pos="0" Visible="True" Width="25" Edit="False" Format="" Total="None" Type="Object" FilterCondition="" FilterValue="" />
+    </RootTable>
+</GridLayout>
