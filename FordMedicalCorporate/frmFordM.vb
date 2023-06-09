@@ -437,7 +437,7 @@ Public Class frmFordM
 
             Dim sig As siGrid18 = New siGrid18(GridMain, table)
 
-            'grid Properties(Override the Layout settings).
+            'grid Properties(Override the Layout settings)...
             With GridMain
                 With .RootTable ' RootTable.
                     With .Columns("ShippingId")
