@@ -164,6 +164,7 @@ Partial Class frmFordM
         '
         'UiTab1
         '
+        Me.UiTab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UiTab1.Location = New System.Drawing.Point(5, 43)
         Me.UiTab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.UiTab1.Name = "UiTab1"
@@ -175,10 +176,10 @@ Partial Class frmFordM
         '
         Me.TabMain.Controls.Add(Me.UiGroupBox5)
         Me.TabMain.Controls.Add(Me.Panel1)
-        Me.TabMain.Location = New System.Drawing.Point(1, 25)
+        Me.TabMain.Location = New System.Drawing.Point(1, 26)
         Me.TabMain.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabMain.Name = "TabMain"
-        Me.TabMain.Size = New System.Drawing.Size(1473, 558)
+        Me.TabMain.Size = New System.Drawing.Size(1473, 557)
         Me.TabMain.TabStop = True
         Me.TabMain.Text = "Main"
         '
@@ -193,10 +194,10 @@ Partial Class frmFordM
         Me.UiGroupBox5.Controls.Add(Me.Label21)
         Me.UiGroupBox5.Controls.Add(Me.lblCustomer)
         Me.UiGroupBox5.Controls.Add(Me.Label19)
-        Me.UiGroupBox5.Location = New System.Drawing.Point(1163, 0)
+        Me.UiGroupBox5.Location = New System.Drawing.Point(983, 0)
         Me.UiGroupBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.UiGroupBox5.Name = "UiGroupBox5"
-        Me.UiGroupBox5.Size = New System.Drawing.Size(304, 156)
+        Me.UiGroupBox5.Size = New System.Drawing.Size(412, 156)
         Me.UiGroupBox5.TabIndex = 879
         '
         'Label17
@@ -232,7 +233,7 @@ Partial Class frmFordM
         Me.txtOrder2.Location = New System.Drawing.Point(116, 12)
         Me.txtOrder2.Margin = New System.Windows.Forms.Padding(4)
         Me.txtOrder2.Name = "txtOrder2"
-        Me.txtOrder2.Size = New System.Drawing.Size(149, 28)
+        Me.txtOrder2.Size = New System.Drawing.Size(177, 28)
         Me.txtOrder2.TabIndex = 871
         '
         'lblShipment
@@ -302,7 +303,7 @@ Partial Class frmFordM
         Me.Panel1.Location = New System.Drawing.Point(3, 2)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1111, 542)
+        Me.Panel1.Size = New System.Drawing.Size(951, 542)
         Me.Panel1.TabIndex = 138
         '
         'GridMain
@@ -310,16 +311,16 @@ Partial Class frmFordM
         Me.GridMain.Location = New System.Drawing.Point(3, 2)
         Me.GridMain.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GridMain.Name = "GridMain"
-        Me.GridMain.Size = New System.Drawing.Size(1104, 535)
+        Me.GridMain.Size = New System.Drawing.Size(943, 535)
         Me.GridMain.TabIndex = 132
         '
         'UiTabPage2
         '
         Me.UiTabPage2.Controls.Add(Me.Panel2)
-        Me.UiTabPage2.Location = New System.Drawing.Point(1, 25)
+        Me.UiTabPage2.Location = New System.Drawing.Point(1, 26)
         Me.UiTabPage2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.UiTabPage2.Name = "UiTabPage2"
-        Me.UiTabPage2.Size = New System.Drawing.Size(1473, 558)
+        Me.UiTabPage2.Size = New System.Drawing.Size(1473, 557)
         Me.UiTabPage2.TabStop = True
         Me.UiTabPage2.Text = "Registry"
         '
@@ -356,7 +357,7 @@ Partial Class frmFordM
         '
         Me.btnsend.Enabled = False
         Me.btnsend.Image = CType(resources.GetObject("btnsend.Image"), System.Drawing.Image)
-        Me.btnsend.Location = New System.Drawing.Point(1325, 44)
+        Me.btnsend.Location = New System.Drawing.Point(1324, 42)
         Me.btnsend.Margin = New System.Windows.Forms.Padding(4)
         Me.btnsend.Name = "btnsend"
         Me.btnsend.Size = New System.Drawing.Size(28, 26)
@@ -380,12 +381,12 @@ Partial Class frmFordM
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Arial", 7.8!)
+        Me.Label6.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(1071, 94)
+        Me.Label6.Location = New System.Drawing.Point(1072, 91)
         Me.Label6.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(36, 16)
+        Me.Label6.Size = New System.Drawing.Size(38, 17)
         Me.Label6.TabIndex = 892
         Me.Label6.Text = "BOL"
         '
@@ -396,7 +397,7 @@ Partial Class frmFordM
         Me.txtBOL.Enabled = False
         Me.txtBOL.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBOL.ForeColor = System.Drawing.Color.Black
-        Me.txtBOL.Location = New System.Drawing.Point(1139, 89)
+        Me.txtBOL.Location = New System.Drawing.Point(1140, 86)
         Me.txtBOL.Margin = New System.Windows.Forms.Padding(11, 10, 11, 10)
         Me.txtBOL.MaxLength = 100
         Me.txtBOL.Name = "txtBOL"
@@ -409,14 +410,14 @@ Partial Class frmFordM
         Me.HyperV.AutoSize = True
         Me.HyperV.Location = New System.Drawing.Point(353, 92)
         Me.HyperV.Name = "HyperV"
-        Me.HyperV.Size = New System.Drawing.Size(110, 17)
+        Me.HyperV.Size = New System.Drawing.Size(115, 18)
         Me.HyperV.TabIndex = 890
         Me.HyperV.TabStop = True
         Me.HyperV.Text = "Visit SellerCloud"
         '
         'dtpShippedDate
         '
-        Me.dtpShippedDate.CustomFormat = "dd/MM/yyyy"
+        Me.dtpShippedDate.CustomFormat = "MM/dd/yyyy"
         Me.dtpShippedDate.DateFormat = Janus.Windows.CalendarCombo.DateFormat.Custom
         '
         '
@@ -427,7 +428,7 @@ Partial Class frmFordM
         Me.dtpShippedDate.Enabled = False
         Me.dtpShippedDate.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpShippedDate.ForeColor = System.Drawing.Color.Black
-        Me.dtpShippedDate.Location = New System.Drawing.Point(1179, 46)
+        Me.dtpShippedDate.Location = New System.Drawing.Point(1178, 44)
         Me.dtpShippedDate.Margin = New System.Windows.Forms.Padding(4)
         Me.dtpShippedDate.Name = "dtpShippedDate"
         Me.dtpShippedDate.NullButtonText = "Ninguna"
@@ -440,10 +441,10 @@ Partial Class frmFordM
         'btnAddCustomer
         '
         Me.btnAddCustomer.Image = CType(resources.GetObject("btnAddCustomer.Image"), System.Drawing.Image)
-        Me.btnAddCustomer.Location = New System.Drawing.Point(284, 46)
+        Me.btnAddCustomer.Location = New System.Drawing.Point(284, 48)
         Me.btnAddCustomer.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAddCustomer.Name = "btnAddCustomer"
-        Me.btnAddCustomer.Size = New System.Drawing.Size(28, 26)
+        Me.btnAddCustomer.Size = New System.Drawing.Size(27, 26)
         Me.btnAddCustomer.TabIndex = 889
         Me.btnAddCustomer.UseVisualStyleBackColor = True
         '
@@ -478,7 +479,7 @@ Partial Class frmFordM
         Me.UiGroupBox2.Controls.Add(Me.txtQty)
         Me.UiGroupBox2.Controls.Add(Me.Label11)
         Me.UiGroupBox2.Controls.Add(Me.UiGroupBox4)
-        Me.UiGroupBox2.Location = New System.Drawing.Point(699, 167)
+        Me.UiGroupBox2.Location = New System.Drawing.Point(686, 167)
         Me.UiGroupBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.UiGroupBox2.Name = "UiGroupBox2"
         Me.UiGroupBox2.Size = New System.Drawing.Size(712, 372)
@@ -586,7 +587,7 @@ Partial Class frmFordM
         Me.txtSKUPallet.Enabled = False
         Me.txtSKUPallet.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSKUPallet.ForeColor = System.Drawing.Color.Black
-        Me.txtSKUPallet.Location = New System.Drawing.Point(57, 33)
+        Me.txtSKUPallet.Location = New System.Drawing.Point(54, 33)
         Me.txtSKUPallet.Margin = New System.Windows.Forms.Padding(11, 10, 11, 10)
         Me.txtSKUPallet.MaxLength = 100
         Me.txtSKUPallet.Name = "txtSKUPallet"
@@ -598,12 +599,12 @@ Partial Class frmFordM
         '
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.Transparent
-        Me.Label12.Font = New System.Drawing.Font("Arial", 7.8!)
+        Me.Label12.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(9, 37)
+        Me.Label12.Location = New System.Drawing.Point(6, 37)
         Me.Label12.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(35, 16)
+        Me.Label12.Size = New System.Drawing.Size(38, 17)
         Me.Label12.TabIndex = 891
         Me.Label12.Text = "SKU"
         '
@@ -613,7 +614,7 @@ Partial Class frmFordM
         Me.btnAddPallet.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddPallet.Image = CType(resources.GetObject("btnAddPallet.Image"), System.Drawing.Image)
         Me.btnAddPallet.ImageSize = New System.Drawing.Size(24, 24)
-        Me.btnAddPallet.Location = New System.Drawing.Point(109, 175)
+        Me.btnAddPallet.Location = New System.Drawing.Point(106, 175)
         Me.btnAddPallet.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAddPallet.Name = "btnAddPallet"
         Me.btnAddPallet.ShowFocusRectangle = False
@@ -626,22 +627,22 @@ Partial Class frmFordM
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Arial", 7.8!)
+        Me.Label10.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(9, 135)
+        Me.Label10.Location = New System.Drawing.Point(6, 135)
         Me.Label10.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(43, 16)
+        Me.Label10.Size = New System.Drawing.Size(44, 17)
         Me.Label10.TabIndex = 890
         Me.Label10.Text = "Pallet"
         '
         'cmbPallet
         '
         Me.cmbPallet.FormattingEnabled = True
-        Me.cmbPallet.Location = New System.Drawing.Point(94, 133)
+        Me.cmbPallet.Location = New System.Drawing.Point(91, 133)
         Me.cmbPallet.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cmbPallet.Name = "cmbPallet"
-        Me.cmbPallet.Size = New System.Drawing.Size(99, 24)
+        Me.cmbPallet.Size = New System.Drawing.Size(99, 26)
         Me.cmbPallet.TabIndex = 138
         '
         'Label1
@@ -666,7 +667,7 @@ Partial Class frmFordM
         Me.txtQty.Enabled = False
         Me.txtQty.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtQty.ForeColor = System.Drawing.Color.Black
-        Me.txtQty.Location = New System.Drawing.Point(94, 90)
+        Me.txtQty.Location = New System.Drawing.Point(91, 90)
         Me.txtQty.Margin = New System.Windows.Forms.Padding(11, 10, 11, 10)
         Me.txtQty.MaxLength = 100
         Me.txtQty.Name = "txtQty"
@@ -678,12 +679,12 @@ Partial Class frmFordM
         '
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("Arial", 7.8!)
+        Me.Label11.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(9, 94)
+        Me.Label11.Location = New System.Drawing.Point(6, 94)
         Me.Label11.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(30, 16)
+        Me.Label11.Size = New System.Drawing.Size(31, 17)
         Me.Label11.TabIndex = 878
         Me.Label11.Text = "Qty"
         '
@@ -793,25 +794,25 @@ Partial Class frmFordM
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Arial", 7.8!)
+        Me.Label8.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
         Me.Label8.Location = New System.Drawing.Point(9, 94)
         Me.Label8.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(60, 16)
+        Me.Label8.Size = New System.Drawing.Size(65, 17)
         Me.Label8.TabIndex = 878
-        Me.Label8.Text = "TotalQty"
+        Me.Label8.Text = "Total Qty"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Arial", 7.8!)
+        Me.Label9.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
         Me.Label9.Location = New System.Drawing.Point(9, 37)
         Me.Label9.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(35, 16)
+        Me.Label9.Size = New System.Drawing.Size(38, 17)
         Me.Label9.TabIndex = 876
         Me.Label9.Text = "SKU"
         '
@@ -835,10 +836,10 @@ Partial Class frmFordM
         'btnAddOrder
         '
         Me.btnAddOrder.Image = CType(resources.GetObject("btnAddOrder.Image"), System.Drawing.Image)
-        Me.btnAddOrder.Location = New System.Drawing.Point(284, 89)
+        Me.btnAddOrder.Location = New System.Drawing.Point(284, 87)
         Me.btnAddOrder.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAddOrder.Name = "btnAddOrder"
-        Me.btnAddOrder.Size = New System.Drawing.Size(28, 26)
+        Me.btnAddOrder.Size = New System.Drawing.Size(27, 26)
         Me.btnAddOrder.TabIndex = 872
         Me.btnAddOrder.UseVisualStyleBackColor = True
         '
@@ -861,12 +862,12 @@ Partial Class frmFordM
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Arial", 7.8!)
+        Me.Label4.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
         Me.Label4.Location = New System.Drawing.Point(11, 94)
         Me.Label4.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(45, 16)
+        Me.Label4.Size = New System.Drawing.Size(46, 17)
         Me.Label4.TabIndex = 870
         Me.Label4.Text = "Order"
         '
@@ -874,12 +875,12 @@ Partial Class frmFordM
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
         Me.Label5.Location = New System.Drawing.Point(11, 130)
         Me.Label5.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(67, 16)
+        Me.Label5.Size = New System.Drawing.Size(70, 17)
         Me.Label5.TabIndex = 140
         Me.Label5.Text = "Shipment"
         '
@@ -895,16 +896,17 @@ Partial Class frmFordM
         Me.txtShippingLot.MaxLength = 100
         Me.txtShippingLot.Name = "txtShippingLot"
         Me.txtShippingLot.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtShippingLot.Size = New System.Drawing.Size(105, 24)
+        Me.txtShippingLot.Size = New System.Drawing.Size(79, 24)
         Me.txtShippingLot.TabIndex = 133
         '
         'chkShipped
         '
         Me.chkShipped.AutoSize = True
-        Me.chkShipped.Location = New System.Drawing.Point(1075, 49)
+        Me.chkShipped.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkShipped.Location = New System.Drawing.Point(1074, 47)
         Me.chkShipped.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkShipped.Name = "chkShipped"
-        Me.chkShipped.Size = New System.Drawing.Size(82, 21)
+        Me.chkShipped.Size = New System.Drawing.Size(83, 22)
         Me.chkShipped.TabIndex = 702
         Me.chkShipped.Text = "Shipped"
         Me.chkShipped.UseVisualStyleBackColor = True
@@ -913,14 +915,14 @@ Partial Class frmFordM
         '
         Me.lblId.AutoSize = True
         Me.lblId.BackColor = System.Drawing.Color.Transparent
-        Me.lblId.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblId.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblId.ForeColor = System.Drawing.SystemColors.ControlText
         Me.lblId.Location = New System.Drawing.Point(11, 14)
         Me.lblId.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.lblId.Name = "lblId"
-        Me.lblId.Size = New System.Drawing.Size(78, 16)
+        Me.lblId.Size = New System.Drawing.Size(79, 17)
         Me.lblId.TabIndex = 119
-        Me.lblId.Text = "Id Shipping"
+        Me.lblId.Text = "Shipping Id"
         '
         'txtId
         '
@@ -934,19 +936,19 @@ Partial Class frmFordM
         Me.txtId.MaxLength = 50
         Me.txtId.Name = "txtId"
         Me.txtId.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtId.Size = New System.Drawing.Size(84, 24)
+        Me.txtId.Size = New System.Drawing.Size(78, 24)
         Me.txtId.TabIndex = 120
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(11, 52)
         Me.Label3.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 16)
+        Me.Label3.Size = New System.Drawing.Size(77, 18)
         Me.Label3.TabIndex = 135
         Me.Label3.Text = "Customer"
         '
@@ -956,7 +958,7 @@ Partial Class frmFordM
         Me.cmbCustomer.Location = New System.Drawing.Point(106, 49)
         Me.cmbCustomer.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cmbCustomer.Name = "cmbCustomer"
-        Me.cmbCustomer.Size = New System.Drawing.Size(175, 24)
+        Me.cmbCustomer.Size = New System.Drawing.Size(175, 26)
         Me.cmbCustomer.TabIndex = 131
         '
         'UiTabPage3
@@ -968,10 +970,10 @@ Partial Class frmFordM
         Me.UiTabPage3.Controls.Add(Me.Label7)
         Me.UiTabPage3.Controls.Add(Me.cmbCustomer2)
         Me.UiTabPage3.Controls.Add(Me.Panel3)
-        Me.UiTabPage3.Location = New System.Drawing.Point(1, 25)
+        Me.UiTabPage3.Location = New System.Drawing.Point(1, 26)
         Me.UiTabPage3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.UiTabPage3.Name = "UiTabPage3"
-        Me.UiTabPage3.Size = New System.Drawing.Size(1473, 558)
+        Me.UiTabPage3.Size = New System.Drawing.Size(1473, 557)
         Me.UiTabPage3.TabStop = True
         Me.UiTabPage3.Text = "Palletizer"
         '
@@ -992,12 +994,12 @@ Partial Class frmFordM
         '
         Me.Label16.AutoSize = True
         Me.Label16.BackColor = System.Drawing.Color.Transparent
-        Me.Label16.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.DimGray
         Me.Label16.Location = New System.Drawing.Point(13, 190)
         Me.Label16.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(96, 18)
+        Me.Label16.Size = New System.Drawing.Size(108, 19)
         Me.Label16.TabIndex = 899
         Me.Label16.Text = "Total Weight"
         '
@@ -1005,44 +1007,44 @@ Partial Class frmFordM
         '
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.Color.Transparent
-        Me.Label14.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Black
         Me.Label14.Location = New System.Drawing.Point(13, 74)
         Me.Label14.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(74, 16)
+        Me.Label14.Size = New System.Drawing.Size(75, 18)
         Me.Label14.TabIndex = 143
         Me.Label14.Text = "Shipment"
         '
         'cmbShippingLot
         '
         Me.cmbShippingLot.FormattingEnabled = True
-        Me.cmbShippingLot.Location = New System.Drawing.Point(16, 94)
+        Me.cmbShippingLot.Location = New System.Drawing.Point(16, 96)
         Me.cmbShippingLot.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cmbShippingLot.Name = "cmbShippingLot"
-        Me.cmbShippingLot.Size = New System.Drawing.Size(139, 24)
+        Me.cmbShippingLot.Size = New System.Drawing.Size(139, 26)
         Me.cmbShippingLot.TabIndex = 142
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(13, 9)
         Me.Label7.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(76, 16)
+        Me.Label7.Size = New System.Drawing.Size(77, 18)
         Me.Label7.TabIndex = 141
         Me.Label7.Text = "Customer"
         '
         'cmbCustomer2
         '
         Me.cmbCustomer2.FormattingEnabled = True
-        Me.cmbCustomer2.Location = New System.Drawing.Point(16, 28)
+        Me.cmbCustomer2.Location = New System.Drawing.Point(16, 31)
         Me.cmbCustomer2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cmbCustomer2.Name = "cmbCustomer2"
-        Me.cmbCustomer2.Size = New System.Drawing.Size(139, 24)
+        Me.cmbCustomer2.Size = New System.Drawing.Size(139, 26)
         Me.cmbCustomer2.TabIndex = 140
         '
         'Panel3
@@ -1070,7 +1072,7 @@ Partial Class frmFordM
         Me.UiTabPage1.Location = New System.Drawing.Point(1, 25)
         Me.UiTabPage1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.UiTabPage1.Name = "UiTabPage1"
-        Me.UiTabPage1.Size = New System.Drawing.Size(1420, 558)
+        Me.UiTabPage1.Size = New System.Drawing.Size(1473, 558)
         Me.UiTabPage1.TabStop = True
         Me.UiTabPage1.Text = "SKU Finder"
         '
@@ -1091,12 +1093,12 @@ Partial Class frmFordM
         '
         Me.Label22.AutoSize = True
         Me.Label22.BackColor = System.Drawing.Color.Transparent
-        Me.Label22.Font = New System.Drawing.Font("Arial", 7.8!)
+        Me.Label22.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.Color.Black
-        Me.Label22.Location = New System.Drawing.Point(13, 18)
+        Me.Label22.Location = New System.Drawing.Point(13, 17)
         Me.Label22.Margin = New System.Windows.Forms.Padding(27, 25, 7, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(35, 16)
+        Me.Label22.Size = New System.Drawing.Size(40, 18)
         Me.Label22.TabIndex = 877
         Me.Label22.Text = "SKU"
         '
@@ -1108,7 +1110,7 @@ Partial Class frmFordM
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(644, 506)
+        Me.GroupBox1.Size = New System.Drawing.Size(658, 506)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         '
@@ -1117,7 +1119,7 @@ Partial Class frmFordM
         Me.GridSKUFinder.Location = New System.Drawing.Point(0, 0)
         Me.GridSKUFinder.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GridSKUFinder.Name = "GridSKUFinder"
-        Me.GridSKUFinder.Size = New System.Drawing.Size(644, 506)
+        Me.GridSKUFinder.Size = New System.Drawing.Size(658, 506)
         Me.GridSKUFinder.TabIndex = 133
         '
         'Panel4
@@ -1170,20 +1172,21 @@ Partial Class frmFordM
         Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnReport.Enabled = False
         Me.btnReport.Icon = CType(resources.GetObject("btnReport.Icon"), System.Drawing.Icon)
-        Me.btnReport.Location = New System.Drawing.Point(1073, 2)
+        Me.btnReport.Location = New System.Drawing.Point(995, 2)
         Me.btnReport.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnReport.Name = "btnReport"
         Me.btnReport.Size = New System.Drawing.Size(133, 34)
         Me.btnReport.TabIndex = 143
         Me.btnReport.Text = "Report"
+        Me.btnReport.ToolTipText = "Pallets Report"
         '
         'btnSave
         '
         Me.btnSave.Icon = CType(resources.GetObject("btnSave.Icon"), System.Drawing.Icon)
-        Me.btnSave.Location = New System.Drawing.Point(220, 2)
+        Me.btnSave.Location = New System.Drawing.Point(217, 2)
         Me.btnSave.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(100, 34)
+        Me.btnSave.Size = New System.Drawing.Size(103, 34)
         Me.btnSave.TabIndex = 142
         Me.btnSave.Text = "Save"
         '
@@ -1191,10 +1194,10 @@ Partial Class frmFordM
         '
         Me.btnDelete.Enabled = False
         Me.btnDelete.Icon = CType(resources.GetObject("btnDelete.Icon"), System.Drawing.Icon)
-        Me.btnDelete.Location = New System.Drawing.Point(325, 2)
+        Me.btnDelete.Location = New System.Drawing.Point(320, 2)
         Me.btnDelete.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(100, 34)
+        Me.btnDelete.Size = New System.Drawing.Size(104, 34)
         Me.btnDelete.TabIndex = 140
         Me.btnDelete.Text = "Delete"
         '
@@ -1204,17 +1207,17 @@ Partial Class frmFordM
         Me.btnAdd.Location = New System.Drawing.Point(8, 2)
         Me.btnAdd.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(100, 34)
+        Me.btnAdd.Size = New System.Drawing.Size(105, 34)
         Me.btnAdd.TabIndex = 139
         Me.btnAdd.Text = "Add"
         '
         'btnCancel
         '
         Me.btnCancel.Icon = CType(resources.GetObject("btnCancel.Icon"), System.Drawing.Icon)
-        Me.btnCancel.Location = New System.Drawing.Point(432, 2)
+        Me.btnCancel.Location = New System.Drawing.Point(424, 2)
         Me.btnCancel.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(100, 34)
+        Me.btnCancel.Size = New System.Drawing.Size(103, 34)
         Me.btnCancel.TabIndex = 144
         Me.btnCancel.Text = "Cancel"
         '
@@ -1222,10 +1225,10 @@ Partial Class frmFordM
         '
         Me.btnEdit.Enabled = False
         Me.btnEdit.Icon = CType(resources.GetObject("btnEdit.Icon"), System.Drawing.Icon)
-        Me.btnEdit.Location = New System.Drawing.Point(115, 2)
+        Me.btnEdit.Location = New System.Drawing.Point(113, 2)
         Me.btnEdit.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnEdit.Name = "btnEdit"
-        Me.btnEdit.Size = New System.Drawing.Size(100, 34)
+        Me.btnEdit.Size = New System.Drawing.Size(104, 34)
         Me.btnEdit.TabIndex = 145
         Me.btnEdit.Text = "Edit"
         '
@@ -1234,12 +1237,13 @@ Partial Class frmFordM
         Me.btnPickForm.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnPickForm.Enabled = False
         Me.btnPickForm.Icon = CType(resources.GetObject("btnPickForm.Icon"), System.Drawing.Icon)
-        Me.btnPickForm.Location = New System.Drawing.Point(933, 2)
+        Me.btnPickForm.Location = New System.Drawing.Point(855, 2)
         Me.btnPickForm.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnPickForm.Name = "btnPickForm"
         Me.btnPickForm.Size = New System.Drawing.Size(133, 34)
         Me.btnPickForm.TabIndex = 146
         Me.btnPickForm.Text = "Picked Form"
+        Me.btnPickForm.ToolTipText = "Picked Form Report"
         '
         'btnExportGrid
         '
@@ -1247,14 +1251,14 @@ Partial Class frmFordM
         Me.btnExportGrid.Image = CType(resources.GetObject("btnExportGrid.Image"), System.Drawing.Image)
         Me.btnExportGrid.ImageHorizontalAlignment = Janus.Windows.EditControls.ImageHorizontalAlignment.Center
         Me.btnExportGrid.ImageSize = New System.Drawing.Size(24, 24)
-        Me.btnExportGrid.Location = New System.Drawing.Point(1212, 2)
+        Me.btnExportGrid.Location = New System.Drawing.Point(1134, 2)
         Me.btnExportGrid.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnExportGrid.Name = "btnExportGrid"
         Me.btnExportGrid.ShowFocusRectangle = False
         Me.btnExportGrid.Size = New System.Drawing.Size(32, 34)
         Me.btnExportGrid.TabIndex = 147
-        Me.btnExportGrid.Tag = "noresize"
-        Me.btnExportGrid.ToolTipText = "EXPORTAR a Excel"
+        Me.btnExportGrid.Tag = ""
+        Me.btnExportGrid.ToolTipText = "Export to Excel"
         Me.btnExportGrid.VisualStyle = Janus.Windows.UI.VisualStyle.OfficeXP
         '
         'btnLogin
@@ -1263,14 +1267,14 @@ Partial Class frmFordM
         Me.btnLogin.Image = CType(resources.GetObject("btnLogin.Image"), System.Drawing.Image)
         Me.btnLogin.ImageHorizontalAlignment = Janus.Windows.EditControls.ImageHorizontalAlignment.Center
         Me.btnLogin.ImageSize = New System.Drawing.Size(24, 24)
-        Me.btnLogin.Location = New System.Drawing.Point(695, 4)
+        Me.btnLogin.Location = New System.Drawing.Point(1232, 2)
         Me.btnLogin.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.ShowFocusRectangle = False
         Me.btnLogin.Size = New System.Drawing.Size(32, 34)
         Me.btnLogin.TabIndex = 148
-        Me.btnLogin.Tag = "noresize"
-        Me.btnLogin.ToolTipText = "EXPORTAR a Excel"
+        Me.btnLogin.Tag = ""
+        Me.btnLogin.ToolTipText = "Lock / Unlock"
         Me.btnLogin.VisualStyle = Janus.Windows.UI.VisualStyle.OfficeXP
         '
         'frmFordM
@@ -1278,7 +1282,7 @@ Partial Class frmFordM
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.SteelBlue
-        Me.ClientSize = New System.Drawing.Size(1488, 634)
+        Me.ClientSize = New System.Drawing.Size(1411, 634)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.btnExportGrid)
         Me.Controls.Add(Me.btnPickForm)

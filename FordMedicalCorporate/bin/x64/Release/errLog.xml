@@ -3600,4 +3600,13 @@
         <line>2173</line>
         <message>Conversion failed when converting the nvarchar value &amp;apos;ARY500050-C&amp;apos; to data type int.</message>
     </err>
+    <err>
+        <date>2023-06-19T19:24:02</date>
+        <machine>DAYLAP</machine>
+        <appVer>1.0.0.0</appVer>
+        <module>Com</module>
+        <method>DbGetWebLicenses</method>
+        <line>1308</line>
+        <message>Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: TCP Provider, error: 0 - The wait operation timed out.)</message>
+    </err>
 </errLog>

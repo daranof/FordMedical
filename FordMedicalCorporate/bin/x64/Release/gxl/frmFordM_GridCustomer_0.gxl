@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<GridLayout Date="2023-06-08T20:01:46" LayoutType="siGrid18" Form="frmFordM" Grid="GridCustomer" UserId="0" NumberOfTables="1" Autosize="-1">
+<GridLayout Date="2023-06-20T17:20:12" LayoutType="siGrid18" Form="frmFordM" Grid="GridCustomer" UserId="0" NumberOfTables="1" Autosize="-1">
     <RootTable AllowAddNew="False" AllowDelete="False" AllowEdit="False" ShowTotalRow="True" ShowFilterRow="True" ShowGroupByBox="True" FontSize="8.25" MaxRows="100" DefaultCol="1" NumberOfColumns="2">
         <Pallet1 Pos="1" Visible="True" Width="100" Edit="False" Format="" Total="2" Type="Int32" FilterCondition="" FilterValue="" />
         <SCol Pos="0" Visible="True" Width="25" Edit="False" Format="" Total="None" Type="Object" FilterCondition="" FilterValue="" />

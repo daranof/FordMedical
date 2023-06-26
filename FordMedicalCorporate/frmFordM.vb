@@ -116,7 +116,7 @@ Public Class frmFordM
         '    btnAddMeasure.Enabled = Value
         'End If
 
-        txtShippingLot.Enabled = Value
+        txtShippingLot.Enabled = False
         txtBOL.Enabled = Value
         btnAddMeasure.Enabled = Value
         btnAddOrder.Enabled = Value
@@ -157,13 +157,13 @@ Public Class frmFordM
                             btnDelete.Enabled = False
                             btnSave.Enabled = False
                             btnSave.Text = ESTR
-                            btnPickForm.Enabled = False
+                           ' btnPickForm.Enabled = False
 
                         Case Is > 0
                             btnEdit.Enabled = True
                             btnSave.Enabled = False
-                            btnSave.Text = ESTR
-                            btnPickForm.Enabled = True
+                            'btnSave.Text = ESTR
+                            ' btnPickForm.Enabled = False
 
                     End Select
                 Case Else
@@ -171,7 +171,7 @@ Public Class frmFordM
                     btnEdit.Enabled = False
                     btnDelete.Enabled = False
                     btnSave.Enabled = True
-                    btnPickForm.Enabled = False
+                    ' btnPickForm.Enabled = False
 
             End Select
         Else
@@ -181,8 +181,9 @@ Public Class frmFordM
             btnSave.Enabled = False
         End If
 
-        'btnReport.Enabled = False
-
+        btnReport.Enabled = False
+        btnPickForm.Enabled = False
+        btnExportGrid.Enabled = False
     End Sub
 
     Private Function ValidateFields() As Boolean
@@ -399,6 +400,10 @@ Public Class frmFordM
         FillcmbPallet()
 
         ToolbarButtons()
+
+        txtSKUFinder.Tag = -1
+        txtSKUFinder.Text = ""
+        fillGridSKUFinder()
 
         txtShippingLot.Enabled = False
         btnDelete.Enabled = False
@@ -1233,14 +1238,17 @@ Public Class frmFordM
         FillGridCustomer()
         FillcmbShippingLot()
         btnReport.Enabled = False
+        btnExportGrid.Enabled = False
     End Sub
 
     Private Sub cmbShippingLot_SelectedValueChanged(sender As Object, e As EventArgs) Handles cmbShippingLot.SelectedValueChanged
         FillGridCustomer()
         If CStr2(cmbShippingLot.Text) <> "" Then
             btnReport.Enabled = True
+            btnExportGrid.Enabled = True
         Else
             btnReport.Enabled = False
+            btnExportGrid.Enabled = False
         End If
 
     End Sub
@@ -1858,7 +1866,7 @@ Public Class frmFordM
                     SetCell(ws, "Date of Pick Up:", row + j + 10, 0, 1, 5, ,, HorAlignment.L, ts, , True)
                     SetCell(ws, "Sign:", row + j + 13, 0, 1, 4, ,, HorAlignment.L, ts, , True)
                 End If
-                If Table.Rows.Count >= 40 Then
+                If Table.Rows.Count >= 40 And Table.Rows.Count < 60 Then
                     For i = 0 To 19
                         k = 3
                         SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
@@ -1874,6 +1882,71 @@ Public Class frmFordM
                     h = 0
                     For i = 40 To Table.Rows.Count - 1
                         k = 9
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                    Next
+
+                    SetCell(ws, "Date of Pick Up:", row + j + 10, 0, 1, 5, ,, HorAlignment.L, ts, , True)
+                    SetCell(ws, "Sign:", row + j + 13, 0, 1, 4, ,, HorAlignment.L, ts, , True)
+                End If
+                If Table.Rows.Count >= 60 And Table.Rows.Count < 80 Then
+                    For i = 0 To 19
+                        k = 3
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                        j = h
+                    Next
+                    h = 0
+                    For i = 20 To 39
+                        k = 6
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                    Next
+                    h = 0
+                    For i = 40 To 59
+                        k = 9
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                    Next
+                    h = 0
+                    For i = 60 To Table.Rows.Count - 1
+                        k = 12
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                    Next
+
+                    SetCell(ws, "Date of Pick Up:", row + j + 10, 0, 1, 5, ,, HorAlignment.L, ts, , True)
+                    SetCell(ws, "Sign:", row + j + 13, 0, 1, 4, ,, HorAlignment.L, ts, , True)
+                End If
+
+                If Table.Rows.Count >= 80 Then
+                    For i = 0 To 19
+                        k = 3
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                        j = h
+                    Next
+                    h = 0
+                    For i = 20 To 39
+                        k = 6
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                    Next
+                    h = 0
+                    For i = 40 To 59
+                        k = 9
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                    Next
+                    h = 0
+                    For i = 60 To 79
+                        k = 12
+                        SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
+                        h += 1
+                    Next
+                    h = 0
+                    For i = 80 To Table.Rows.Count - 1
+                        k = 15
                         SetCell(ws, CStr2(Table.Rows(i)("OrderNumber")), row + h, k, 1, 3, , Color.SteelBlue, HorAlignment.L, ts, , True, True, , Color.White)
                         h += 1
                     Next
@@ -2275,8 +2348,26 @@ Public Class frmFordM
     Private Sub txtSKUFinder_TextChanged(sender As Object, e As EventArgs) Handles txtSKUFinder.TextChanged
         If txtSKUFinder.Text <> "" Then
             fillGridSKUFinder()
-
         End If
+
+        'If txtSKUFinder.TextLength > 0 Then
+        '    If CStr2(txtSKUFinder.Tag) <> -1 Then
+        '        fillGridSKUFinder()
+        '        txtSKUFinder.Focus()
+        '    End If
+        'Else
+        '    If txtSKUFinder.TextLength <= 7 Then
+        '        txtSKUFinder.Tag = -1
+        '        fillGridSKUFinder()
+        '        txtSKUFinder.Focus()
+        '    End If
+
+        'End If
+
+
+
+
+
     End Sub
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
